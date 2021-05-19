@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Review">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#191970"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/studio" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="478dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <RatingBar
+                android:id="@+id/ratingreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="69dp"
+                android:layout_marginBottom="403dp"
+                android:background="#fff"
+                android:numStars="5"
+                android:rating="0"
+                android:stepSize="0.5" />
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="33dp"
+                android:layout_marginBottom="75dp"
+                android:text="Submit" />
+
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="33dp"
+                android:layout_marginBottom="20dp"
+                android:text="Keluar" />
+
+            <EditText
+                android:id="@+id/edtcomentar"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="349dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Masukan komentar anda"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

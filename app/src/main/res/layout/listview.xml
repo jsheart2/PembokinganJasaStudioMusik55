@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#191970"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:background="@drawable/studio" />
+
+        <RelativeLayout
+            android:layout_width="372dp"
+            android:layout_height="437dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/txt_bocit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="80dp"
+                android:layout_marginBottom="277dp"
+                android:text="0"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/txt_tengah2"
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="86dp"
+                android:layout_marginBottom="278dp"
+
+                android:text=":"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/txt_menit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="277dp"
+                android:text="0"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/txt_kedua2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="88dp"
+                android:layout_marginBottom="277dp"
+                android:text="0"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="253dp"
+                android:layout_marginBottom="304dp"
+                android:text="Tanggal Boking :"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/txt_tglboking"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="218dp"
+                android:layout_marginBottom="266dp"
+                android:ems="10"
+                android:hint="DD/MM/YY"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="252dp"
+                android:layout_marginBottom="344dp"
+                android:text="Boking perJam : "
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="409dp"
+                android:text="Grub Band"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/txt_nama"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="11dp"
+                android:layout_marginBottom="364dp"
+                android:gravity="center"
+                android:hint=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_jumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="252dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="344dp"
+                android:text="0"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="321dp"
+                android:layout_marginBottom="233dp"
+                android:baselineAligned="false"
+                android:text="Hasil :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txt_getNama"
+                android:layout_width="147dp"
+                android:layout_height="81dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="201dp"
+                android:layout_marginBottom="161dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_price"
+                android:layout_width="127dp"
+                android:layout_height="43dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="234dp"
+                android:layout_marginBottom="132dp"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="58dp"
+                android:layout_marginBottom="307dp"
+                android:text="Jam Main :"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="220dp"
+                android:layout_marginBottom="344dp"
+                android:text="Jam"
+                android:textColor="#FFFF" />
+
+            <Button
+                android:id="@+id/Kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="319dp"
+                android:layout_marginEnd="140dp"
+                android:layout_marginBottom="70dp"
+                android:onClick="back"
+                android:text="Kembali" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
